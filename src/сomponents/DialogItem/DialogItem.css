@@ -7,7 +7,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin: 150px;
+    margin: 250px;
 }
 
 .cloud {
@@ -50,18 +50,21 @@
     text-align: right;
 }
 
+.avatar {
+    display: flex;
+    align-self: flex-end;
+}
+
 .avatar img {
-    flex: 0 0 auto;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-right: 15px;
-    margin-top: 50px;
     background-color: #fff;
     background-size: 32px;
 }
 
-.cloud_text p {
-    margin: 0;
+.cloud_text p span {
+    color: #6D7F8F;
+    float: right;
 }
-

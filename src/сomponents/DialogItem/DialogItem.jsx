@@ -3,7 +3,6 @@ import './DialogItem.css';
 import Message from "./Message/Message";
 import Name from "./Name/Name";
 import Avatar from "./Avatar/Avatar";
-import Time from "./Time/Time";
 
 class DialogItem extends React.Component {
 
@@ -19,9 +18,6 @@ class DialogItem extends React.Component {
                     </div>
                     <div className="cloud_text">
                         <Message/>
-                    </div>
-                    <div className="cloud_time">
-                        <Time/>
                     </div>
                 </div>
             </div>

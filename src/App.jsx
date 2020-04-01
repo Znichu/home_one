@@ -6,8 +6,8 @@ import FullName from "./сomponents/FullName/FullName";
 function App() {
     return (
         <div className="App">
-            <FullName/>
-            <DialogItem/>
+            <FullName />
+            <DialogItem />
         </div>
     );
 }

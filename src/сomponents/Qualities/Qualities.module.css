@@ -1,0 +1,11 @@
+.qualities {
+    margin: 50px;
+}
+.qualities {
+    display: inline-block;
+    color: white;
+    font-family: monospace;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #182533;
+}

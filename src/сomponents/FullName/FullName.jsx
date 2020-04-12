@@ -1,12 +1,13 @@
 import React from "react";
-import './FullName.css'
+import style from './FullName.module.css'
 
 
 class FullName extends React.Component {
     render = () => {
+
         return (
-            <div className="wrapper">
-                <h1 className="title">Неплашов Сергей Иванович</h1>
+            <div className={style.wrapper}>
+                <h1 className={style.title}>Неплашов Сергей Иванович</h1>
             </div>
         );
     }

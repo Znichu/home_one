@@ -7,7 +7,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin: 250px;
+    margin: 50px;
 }
 
 .cloud {
@@ -15,7 +15,7 @@
     border-radius: 10px 10px 10px 0;
     padding: 5px 15px 5px 15px;
     position: relative;
-    max-width: 650px;
+    max-width: 350px;
 }
 
 .cloud:before {

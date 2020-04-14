@@ -1,13 +1,14 @@
+.listNames {
+    padding: 5px;
+}
+
 .listNames h1 {
-    padding: 20px;
     font-family: monospace;
     letter-spacing: 1px;
 }
 
 .listNames ul {
-    margin: 20px;
     list-style: none;
-    height: 100vh;
 }
 .listNames ul li {
     font-family: monospace;

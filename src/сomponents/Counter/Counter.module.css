@@ -1,5 +1,4 @@
 .mainCounter {
-    width: 100vh;
 }
 
 .mainCounterInput {
@@ -23,6 +22,7 @@
 span {
     font-size: 30px;
     font-family: monospace;
+    text-align: center;
 }
 .inputListName {
     display: flex;

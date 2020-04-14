@@ -39,7 +39,7 @@ class Counter extends React.Component {
             <div className={style.mainCounter}>
                 <div className={style.mainCounterNumber}>
                     <span>
-                        Вы нажали на кнопку: {this.props.date.counter} раз.
+                       Колличество нажатий на кнопку: {this.props.date.counter}
                     </span>
                 </div>
                 <div className={style.mainCounterInput}>

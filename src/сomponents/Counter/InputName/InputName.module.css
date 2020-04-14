@@ -1,5 +1,7 @@
-.listNames span {
+.listNames h1 {
     padding: 20px;
+    font-family: monospace;
+    letter-spacing: 1px;
 }
 
 .listNames ul {

@@ -7,7 +7,7 @@ class InputName extends React.Component {
         let nameItem = this.props.list.map(n =><li>{n.name}</li>);
         return (
             <div className={style.listNames}>
-                <span>Введенные имена:</span>
+                <h1>Введенные имена:</h1>
                 <ul>
                     {nameItem}
                 </ul>

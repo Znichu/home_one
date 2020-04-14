@@ -1,0 +1,14 @@
+.counterButton {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 3px;
+    background-color:  #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 28px;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 25px;
+    font-family: monospace;
+    letter-spacing: 1px;
+}

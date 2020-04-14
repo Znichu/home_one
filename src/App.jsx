@@ -3,6 +3,7 @@ import './App.css';
 import DialogItem from "./сomponents/DialogItem/DialogItem";
 import FullName from "./сomponents/FullName/FullName";
 import Qualities from "./сomponents/Qualities/Qualities";
+import Counter from "./сomponents/Counter/Counter";
 
 function App() {
 
@@ -14,9 +15,10 @@ function App() {
     ];
     return (
         <div className="App">
-            <FullName />
-            <Qualities qualities = {qualities} />
-            <DialogItem />
+            {/*<FullName />*/}
+            {/*<Qualities qualities = {qualities} />*/}
+            {/*<DialogItem />*/}
+            <Counter />
         </div>
     );
 }

@@ -1,0 +1,32 @@
+.mainCounter {
+    width: 100vh;
+}
+
+.mainCounterInput {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.mainCounterNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    padding: 10px;
+    border-bottom: 1px solid #4CAF50;
+}
+
+span {
+    font-size: 30px;
+    font-family: monospace;
+}
+.inputListName {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}

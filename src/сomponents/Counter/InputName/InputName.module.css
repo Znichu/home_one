@@ -1,0 +1,15 @@
+.listNames span {
+    padding: 20px;
+}
+
+.listNames ul {
+    margin: 20px;
+    list-style: none;
+    height: 100vh;
+}
+.listNames ul li {
+    font-family: monospace;
+    font-size: 22px;
+    padding: 3px 0;
+    letter-spacing: 1px;
+}

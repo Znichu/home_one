@@ -1,9 +1,13 @@
-.listNames span {
-    padding: 20px;
+.listNames {
+    padding: 5px;
+}
+
+.listNames h1 {
+    font-family: monospace;
+    letter-spacing: 1px;
 }
 
 .listNames ul {
-    margin: 20px;
     list-style: none;
 }
 .listNames ul li {

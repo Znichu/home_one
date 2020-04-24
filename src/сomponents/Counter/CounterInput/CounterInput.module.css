@@ -1,12 +1,30 @@
-.counterInput {
+.mainInput input {
     width: 100%;
     padding: 10px 20px;
-    margin: 8px 0;
+    margin: 50px 0;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 3px;
-    border: 1px solid #4CAF50;
     font-family: monospace;
     font-size: 17px;
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+.error input {
+    border: 2px solid red !important;
+}
+.mainInput input:focus {
+    border: 1px solid black;
+}
+
+.mainInput {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.error {
+
 }

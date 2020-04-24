@@ -1,20 +1,13 @@
 .mainCounter {
-    width: 100vh;
-    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
 }
-
 .mainCounter span {
     text-align: center;
 }
 
-.mainCounterInput {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-}
 
 .mainCounterNumber {
     display: flex;
@@ -25,9 +18,10 @@
     border-bottom: 1px solid #4CAF50;
 }
 
-span {
+.mainCounterNumber span {
     font-size: 30px;
     font-family: monospace;
+    text-align: center;
 }
 .inputListName {
     display: flex;
